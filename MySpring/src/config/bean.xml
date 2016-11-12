@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="boss" class="com.cqut.test.boss">
+		<property name="carId">001</property>
+		<property name="carColor">read</property>
+		<property name="office" href="office"/>
+	</bean>
+	<bean id="office" class="com.cqut.test.office">
+		<property name="officeId">004</property>
+	</bean>
+</beans>
